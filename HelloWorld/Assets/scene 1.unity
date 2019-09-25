@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 368099570}
   - component: {fileID: 368099569}
   m_Layer: 0
-  m_Name: SceneLoadeer
+  m_Name: SceneLoader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 368099568}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce9217762bc084a07b679bb033475234, type: 3}
+  m_Script: {fileID: 11500000, guid: 12f9eaf42450c49b79110e11ee939169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &368099570
