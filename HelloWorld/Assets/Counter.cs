@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class Counter : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    int counter = 0;
+
+    private void OnGUI()
+    {
+        GUI.Label(new Rect(100, 100, 200, 50), "Counter: " + counter);
+    }
+
+    private void OnMouseOver()
+    {
+     //   counter++;
+    }
+
+    private void OnMouseExit()
+    {
+        counter++;
+    }
 }
